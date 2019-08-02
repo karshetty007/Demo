@@ -1,0 +1,972 @@
+  body {
+    margin:0;
+    font-family:"Times New Roman";
+    font-size:1em;
+    line-height:1.6;
+    background-color:#000000;
+    color:white;
+    text-align:center;
+}
+
+h1{
+    margin:2em 0em 1em 0em;
+}
+
+ul{
+    list-style:none;
+    
+    
+}
+
+
+ul li:hover{
+   
+   
+    background-color:red;
+}
+
+.sec-2con img{
+    width:100%;
+    height:auto;
+}
+.menu{
+position:absolute; 
+margin:auto;
+left:0;
+top:0.1em;
+padding-top:0.6em;
+width:2em;
+height:2em;
+}
+.menu:hover{
+    background-color:red;
+}
+
+.bck{
+position:absolute;
+    font-size:3em;
+    top:-0.3em;
+    margin:0;
+}
+
+.navbar{
+position:absolute;
+    width:7em;
+    height:15em;
+    top:1em;
+    
+    background-color:black;
+    display:none;
+    border:3px solid white;
+    border-radius:10px;
+   z-index:1;
+}
+
+.navbar ul{
+position:absolute;
+top:3em;
+left:-3em;
+margin:2em;
+}
+
+.logo{
+position:absolute; 
+margin:auto;
+top:0.8em;
+right:0;
+left:0;
+width:50vw;
+height:6vh;
+}
+
+.help{
+    position:absolute; 
+margin:auto;
+top:0.1em;
+right:0;
+padding-top:0.6em;
+width:2em;
+height:2em;
+}
+.help:hover{
+    background-color:red;
+}
+.help p{
+display:none;
+}
+
+.bg-img{
+    position:absolute;
+    top:3em;
+    
+    width:100%; 
+background-image:url("https://i.postimg.cc/fLpJz2YT/body1.png");
+    background-position:center;
+    
+    background-repeat:no-repeat;
+    height:550px;
+    z-index:-1;
+    opacity:0.2;
+}
+
+.session-1 .content-wrap .content-title{
+    font-size:2.4em;
+   line-height:1.2;
+   z-indez:-1;
+}
+
+.session-1 .content-wrap .img-cont1{
+    position:absolute;
+    padding-top:0.3em;
+    padding-bottom:0.3em;
+    padding-left:1em;
+    padding-right:70%;
+    margin-left:1em;
+    border:1px solid grey;
+    z-indez:-1;
+   
+}
+
+.session-1 .content-wrap .img-cont1:hover{
+background-image:url("https://i.postimg.cc/8zG4Qxd9/depositphotos-178653752-stock-illustration-indian-army-soilder-s.jpg");
+background-position:center;
+background-size:100%;
+background-repeat:no-repeat;
+position:absolute;
+
+}
+
+.session-1 .content-wrap .img-cont1 p{
+font-size:2em;
+position:absolute;
+left:3em;
+bottom:-0.6em;
+}
+
+.session-1 .content-wrap .img-cont2{
+    position:absolute;
+    margin-left:1em;
+    margin-top:6em;
+    padding-top:0.3em;
+    padding-bottom:0.3em;
+    padding-left:1em;
+    padding-right:70%;
+    border:1px solid grey;
+    z-indez:-1;
+   
+}
+.session-1 .content-wrap .img-cont2 p{
+font-size:2em;
+position:absolute;
+left:3em;
+bottom:-0.3em;
+}
+
+.session-1 .content-wrap .img-cont2:hover{
+background-image:url("https://i.postimg.cc/Lsq93QqQ/flower-indian-flag-colors-1035-844.jpg");
+background-position:center;
+background-size:100%;
+background-repeat:no-repeat;
+position:absolute;
+}
+
+.session-1 .content-wrap .img-cont3{
+    position:absolute;
+    margin-left:1em;
+    margin-top:12.5em;
+    padding-top:0.3em;
+    padding-bottom:0.3em;
+    padding-left:1em;
+    padding-right:68%;
+    border:1px solid grey;
+    z-indez:-1;
+   
+}
+.session-1 .content-wrap .img-cont3 p{
+font-size:2em;
+position:absolute;
+left:3em;
+bottom:-0.3em;
+}
+.session-1 .content-wrap .img-cont3:hover{
+background-image:url("https://i.postimg.cc/C51VsY4q/Indian-army.png");
+background-position:center;
+background-size:100% 130%;
+background-repeat:no-repeat;
+position:absolute;
+
+}
+.sec-2con h3{
+    color:black;
+    margin-top:25em;
+   
+}
+
+.sec-2con{
+color:black;
+margin-top:-3em;
+background-color:white;
+z-index:-1;
+}
+
+.sec-2pro{
+margin-top:-1.3em;
+padding:0;
+color:black;
+
+background-color:hsl(0,0%,98%);
+}
+.sec-2pro{
+width:100%;
+height:15em;
+}
+.sec-2pro .con-box{
+width:90%;
+height:10vh;
+background-color:white;
+border-radius:1em;
+box-shadow:8px 8px 8px rgba(0,0,0,0.15);
+margin:auto;
+
+}
+
+.con-box2{
+display:none
+}
+
+.con-box3{
+display:none
+}
+
+.sec-2pro h4{
+margin-left:4em;
+margin-top:-3em;
+
+}
+
+.sec-2pro h6{
+margin-left:2em;
+margin-top:-2em;
+
+}
+
+.sec-2pro img{
+width:2.3em;
+height:2.3em;
+position:relative;
+right:3em;
+}
+.section-3{
+width:100%;
+height:30em;
+color:white;
+padding:0;
+margin-top:-3.9em;
+}
+
+.section-3 input{
+width:70%;
+height:2em;
+margin-bottom:0.5em;
+border-radius:0.3em;
+}
+#textare{
+    border-radius:0.6em;
+width:70%;
+height:5em;
+
+}
+::placeholder{
+font-family:"Times New Roman";
+text-indent:5px;
+
+}
+
+
+.section-3 .mes{
+height:5em;
+}
+.bg-imgsec3{
+background-image:url("https://i.postimg.cc/C1Rh8zpH/bfrfoot.png");
+background-position:center;
+background-repeat:no-repeat;
+position:absolute;
+width:100%;
+height:30em;
+z-index:-1;
+}
+
+
+.section-3 h1{
+padding-top:2em;
+
+}
+
+
+
+.section-3 button{
+border-radius:15px;
+
+background-color:#ff661a;
+padding:0.6em 2em 0.6em 2em;
+margin-top:1em;
+font-weight:bolder;
+}
+
+footer{
+
+position:absolute;
+width:100%;
+height:20em;
+
+}
+
+footer ul{
+text-decoration:none;
+list-style:none;
+
+}
+
+footer ul li{
+position:relative;
+top:-2.5em;
+left:56%;
+margin-left:0.8em;
+float:left;
+align:center;
+}
+
+#bol{
+position:relative;
+right:26.2%;
+bottom:7.2em;
+background-color:yellow;
+padding-top:0.2em;
+padding-bottom:0.2em;
+padding-right:0.4em;
+padding-left:0.4em;
+}
+#ita{
+position:relative;
+right:31.3%;
+bottom:5em;
+background-color:red;
+padding-top:0.1em;
+padding-bottom:0.1em;
+padding-right:0.5em;
+padding-left:0.5em;
+}
+
+
+
+.chatbox{
+    position:fixed;
+    top:15em;
+    left:2em;
+    width:7em;
+    height:10em;
+    
+    border:2px solid blue;
+    border-radius:10%;
+overflow:scroll;
+    overflow-x:hidden;
+    
+    
+}
+#chat{
+font-size:1em;
+position:fixed;
+top:31em;
+left:2.5em;
+    width:5.8em;
+    height:1.7em;
+}
+
+
+.cha{
+    position:fixed;
+    top:50em;
+}
+
+#opo{
+    list-style:none;
+    width:4em;
+    height:1em;
+    margin-top:0;
+}
+
+#frstimg{
+    width:98vw;
+    height:40vh;
+}
+
+#snd{
+    
+background-color:white;
+color:black;
+width:2.8em;
+height:1.7em;
+    position:fixed;
+left:8.5em;
+top:30.5em;
+
+
+}
+.box{
+    position:absolute;
+    width:30vw;
+    height:150vw;
+    background-color:green;
+    top:1vw;
+    display:none;
+}
+.bo{
+    margin-left:0;
+    list-style:none;
+    position:relative;
+    font-weight:bolder;
+    top:2em;
+    right:2em;
+    color:violet;
+}
+.bot ul li:hover{
+    background-color:transparent;
+}
+
+
+
+.bot{
+display:none;
+}
+.que{
+position:fixed;
+    top:15.4em;
+    color:red;
+    left:9em;
+     z-index:2;
+    width:1.7em;
+    height:2.4em;
+    background-color:blue;
+}
+
+#ppic{
+    width:7%;
+    padding-right:4.5em;
+    padding-left:0.5em;
+    border:2px solid blue;
+    
+    
+    height:6%;
+    left:1.8em;
+    position:fixed;
+    top:12.4em;
+    z-index:1;
+}
+.p{
+    color:blue;
+    position:fixed;
+    top:12em;
+    left:5em;
+    z-index:2;
+    font-weight:bolder;
+}
+
+.poo{
+    width:3em;
+    height:3em;
+    color:green;
+    font-weight:bolder;
+    margin-top:2em;
+    margin-bottom:2em;
+    margin-right:3em;
+}
+
+
+
+@media(min-width: 700px){
+.menu{
+display:none;
+}
+.logo{
+position:relative; 
+left:-37em;
+}
+.navbar{
+display:inline;
+background-color:transparent;
+border-radius:initial;
+border:none;
+position:static;
+}
+.navbar .bck{
+display:none;
+}
+.navbar ul{
+color:grey;
+list-style:none;
+position:static;
+top:20em;
+font-size:1em;
+
+}
+
+ul li:hover{
+   
+   background-color:transparent;
+    color:white;
+}
+
+
+ul li{
+position:relative;
+top:-3.8em;
+left:36em;
+margin:0px 40px 0px 40px;
+float:left;
+align:center;
+}
+.help p{
+display:block;
+float:right;
+position:relative;
+bottom:1.2em;
+
+}
+.help{
+width:8em;
+height:1.7em;
+padding-right:1em;
+position:absolute;
+top:0.3em;
+right:1em;
+background-color:#ff661a;
+border-radius:25%;
+}
+.bg-img{
+position:absolute;
+    top:3em;
+    
+    width:100%; 
+background-image:url("https://i.postimg.cc/fLpJz2YT/body1.png");
+    background-position:center;
+    background-size:100%;
+    background-repeat:no-repeat;
+    height:550px;
+    z-index:-1;
+    opacity:0.2;
+}
+
+.session-1 .content-wrap .content-title{
+    font-size:2.4em;
+   font-weight:lighter;
+   line-height:1.2;
+   z-indez:-1;
+}
+
+.session-1 .content-wrap .img-cont1{
+    position:absolute;
+    left:23%;
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-left:5%;
+    padding-right:5%;
+    margin-left:1em;
+    border:1px solid grey;
+    z-indez:-1;
+   
+}
+
+.session-1 .content-wrap .img-cont1 p{
+font-size:1em;
+position:absolute;
+left:3em;
+bottom:1em;
+}
+
+.session-1 .content-wrap .img-cont2{
+    position:absolute;
+    top:14%;
+    left:42%;
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-left:5%;
+    padding-right:5%;
+    margin-left:1em;
+    border:1px solid grey;
+    z-indez:-1;
+   
+}
+
+.session-1 .content-wrap .img-cont2 p{
+font-size:1em;
+position:absolute;
+left:3em;
+bottom:1em;
+}
+
+.session-1 .content-wrap .img-cont3{
+    position:absolute;
+    top:0%;
+    left:61%;
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-left:5%;
+    padding-right:5%;
+    margin-left:1em;
+    border:1px solid grey;
+    z-indez:-1;
+   
+}
+
+.session-1 .content-wrap .img-cont3 p{
+font-size:1em;
+position:absolute;
+left:3em;
+bottom:1em;
+}
+
+.sec-2con h3{
+    color:black;
+    padding-top:3em;
+    padding-left:2em;
+    font-size:2em;
+    width:60%;
+    height:auto;
+    
+   
+}
+
+.sec-2con p{
+font-size:1.6em;
+padding-left:2em;
+width:60%;
+    height:auto;
+
+}
+
+.sec-2con{
+color:black;
+
+margin-top:-23em;
+background-color:white;
+z-index:-1;
+height:35em;
+}
+
+.sec-2con img{
+display:none;
+}
+.sec-2con .img1{
+background-image:url("https://i.postimg.cc/k4ZXYybT/all.png");
+background-position:center;
+background-repeat:no-repeat;
+position:absolute;
+left:64.3%;
+top:85%;
+width:29em;
+height:30em;
+}
+
+
+
+.sec-2pro .con-box{
+width:28%;
+height:30%;
+background-color:white;
+
+border-radius:1em;
+box-shadow:8px 8px 8px rgba(0,0,0,0.15);
+margin-left:2em;
+}
+
+
+
+.sec-2pro .con-box2{
+width:30%;
+height:42%;
+background-color:white;
+display:block;
+border-radius:1em;
+box-shadow:8px 8px 8px rgba(0,0,0,0.15);
+position:relative;
+left:21em;
+top:-5.8em;
+margin-left:8em;
+}
+
+.sec-2pro .con-box3{
+width:28%;
+height:33%;
+background-color:white;
+display:block;
+border-radius:1em;
+box-shadow:8px 8px 8px rgba(0,0,0,0.15);
+position:relative;
+left:50em;
+top:-12.5em;
+margin-left:8em;
+}
+
+
+.section-3 .nme{
+width:22.7%;
+height:2em;
+margin-bottom:0.8em;
+border-radius:0.3em;
+}
+.section-3 .email{
+width:22.7%;
+height:2em;
+margin-bottom:0.5em;
+margin-left:0.4em;
+border-radius:0.3em;
+}
+.section-3 .phone{
+width:22.7%;
+height:2em;
+margin-bottom:0.5em;
+margin-left:0.4em;
+border-radius:0.3em;
+}
+#textare{
+    border-radius:0.6em;
+width:70%;
+height:8em;
+
+}
+
+#bol{
+position:relative;
+right:31.7%;
+bottom:9.8em;
+background-color:yellow;
+padding-top:0.2em;
+padding-bottom:0.2em;
+padding-right:0.4em;
+padding-left:0.4em;
+}
+#ita{
+position:relative;
+right:33.3%;
+bottom:6em;
+background-color:red;
+padding-top:0.1em;
+padding-bottom:0.1em;
+padding-right:0.5em;
+padding-left:0.5em;
+}
+
+footer .mov{
+text-align:left;
+margin-left:7em;
+}
+
+footer .follow{
+position:absolute;
+top:-0.2em;
+left:75em;
+}
+
+footer ul{
+text-decoration:none;
+list-style:none;
+
+
+
+}
+
+.session-1 .content-wrap .img-cont1:hover{
+background-image:url("https://i.postimg.cc/8zG4Qxd9/depositphotos-178653752-stock-illustration-indian-army-soilder-s.jpg");
+background-position:center;
+background-size:100% 100%;
+background-repeat:no-repeat;
+position:absolute;
+
+}
+
+.bg-imgsec3{
+background-image:url("https://i.postimg.cc/C1Rh8zpH/bfrfoot.png");
+background-position:cover;
+background-size:98% 100%;
+background-repeat:no-repeat;
+position:absolute;
+width:100%;
+height:30em;
+z-index:-1;
+}
+
+
+footer ul li{
+
+position:relative;
+top:-2.5em;
+left:62%;
+margin:0em 0.8em 0em 0.8em;
+float:left;
+align:center;
+}
+
+footer ul li:hover{
+background-color:red;
+}
+
+
+.chatbox{
+    position:fixed;
+    top:15em;
+    left:2em;
+    width:13em;
+    height:13em;
+    
+    border:2px solid blue;
+    border-radius:10%;
+overflow:scroll;
+    overflow-x:hidden;
+    
+    
+}
+#chat{
+font-size:1em;
+position:fixed;
+top:34.8em;
+left:2.5em;
+    width:9.9em;
+    height:1.7em;
+}
+
+
+.cha{
+    position:fixed;
+    top:50em;
+}
+
+#opo{
+    list-style:none;
+    width:4em;
+    height:1em;
+    margin-top:0;
+}
+
+#frstimg{
+    width:98vw;
+    height:40vh;
+}
+
+#snd{
+    
+background-color:white;
+color:black;
+width:4.2em;
+height:2.4em;
+    position:fixed;
+left:12.2em;
+top:33.8em;
+
+
+}
+.box{
+    position:absolute;
+    width:30vw;
+    height:150vw;
+    background-color:green;
+    top:1vw;
+    display:none;
+}
+.bo{
+    margin:0em;
+    width:5em;
+    height:5em;
+    list-style:none;
+    position:relative;
+    font-weight:bolder;
+    top:2em;
+    left:-1em;
+    color:violet;
+}
+.bot ul li:hover{
+    background-color:transparent;
+}
+
+
+
+.bot{
+display:none;
+}
+.que{
+position:fixed;
+    top:13.4em;
+    color:red;
+    left:16.5em;
+     z-index:2;
+    width:1.7em;
+    height:4.5em;
+    background-color:blue;
+}
+
+#ppic{
+    width:5%;
+    padding-right:7.7em;
+    padding-left:0.5em;
+    border:2px solid blue;
+    
+    
+    height:8%;
+    left:2em;
+    position:fixed;
+    top:11.2em;
+    z-index:1;
+}
+.p{
+    font-size:2em;
+    color:blue;
+    position:fixed;
+    top:4.7em;
+    left:4em;
+    z-index:2;
+    font-weight:bolder;
+}
+
+.poo{
+    width:3em;
+    height:3em;
+    color:green;
+    position:relative;
+    top:0em;
+    left:1.8em;
+    font-weight:bolder;
+    margin-top:1em;
+    margin-bottom:2em;
+    margin-right:0em;
+}
+
+.bot ul li:hover{
+    color:none;
+}
+
+.mov{
+position:relative;
+left:-4em;
+}
+
+}
+
+@media(max-width: 440px){
+
+.sec-2pro .con-box{
+width:90%;
+height:13vh;
+background-color:white;
+border-radius:1em;
+box-shadow:8px 8px 8px rgba(0,0,0,0.15);
+margin:auto;
+
+}
+
+.sec-2con{
+color:black;
+margin-top:-5.3em;
+background-color:white;
+z-index:-1;
+}
+
+}
